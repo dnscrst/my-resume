@@ -119,7 +119,7 @@ export default new Vuex.Store({
 
             current_projects: {
                 title: 'PROJECTS',
-                details: `My Resume - <br/><br/>
+                details: `My Resume - https://github.com/dnscrst/my-resume<br/><br/>
                         Utility Project - https://github.com/dnscrst/utility-project<br/><br/>
                         Natours Project - https://github.com/dnscrst/natours-webpage<br/><br/>
                         Service CRM - https://github.com/dnscrst/service-crm`
