@@ -12,36 +12,26 @@
         <h2>{{ data.role }}</h2>
         <p>Call {{ data.phone }} or email {{ data.email }}</p>
         <h3>SKILLS</h3>
-        <RatingLevel :data="data.skills" />
-        <TextComponent :data="data" />
+        <RatingLevel :data="data.right.skills" />
+        <TextComponent :data="data.right" />
 
     </section>
 
 </template>
 
 <script>
-import { computed } from 'vue';
-import TextComponent from './TextComponent.vue';
-import RatingLevel from './RatingLevel.vue'
-export default {
-    name: 'RightSide',
-    components: { TextComponent, RatingLevel },
-    computed: {
-        data() {
-            const { name, surname, role, skills, phone,
-                email, educations, current_projects,
-            } = this.$store.state.resume
-            return {
-                name, surname, role, skills,
-                educations, current_projects,
-                phone, email
-            }
+  import TextComponent from './TextComponent.vue';
+  import RatingLevel from './RatingLevel.vue';
+
+  export default {
+      name: 'RightSide',
+      components: { TextComponent, RatingLevel },
+      props: {
+        data: {
+          type: Object
         }
-    }
-}
-
-
-
+      }
+  }
 </script>
 
 <style lang="scss">
@@ -84,6 +74,21 @@ export default {
 
         .text-component {
             font-family: "Averta Std", sans-serif;
+            position: relative;
+
+            &:before {
+                width: 29px;
+                height: 25px;
+                padding: 2px 2px;
+                font-size: 13px;
+                font-family: 'Averta Std', sans-serif;
+                background-image: url("../assets/counter-icon.png");
+                background-repeat: no-repeat;
+                left: -90px;
+                display: block;
+                position: absolute;
+                color: white;
+            }
         }
 
         >p {

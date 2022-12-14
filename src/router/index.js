@@ -6,11 +6,10 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/resume',
+    path: '/resume/:name',
     name: 'resume',
     component: Resume
   }
-
 ]
 
 const router = new VueRouter({
