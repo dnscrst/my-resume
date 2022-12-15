@@ -70,6 +70,7 @@
             font-weight: 400;
             padding: 4px 8px;
             margin-top: 8px;
+            margin-bottom: 15px;
         }
 
         .text-component {

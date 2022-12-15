@@ -21,5 +21,9 @@
 
   .text-component {
     line-height: 1.5;
+
+    h3 {
+      text-decoration: underline grey;
+    }
   }
 </style>

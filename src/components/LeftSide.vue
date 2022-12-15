@@ -1,7 +1,9 @@
 <template>
     <section class="left-side">
 
-        <p>Call {{ data.phone }} or email {{ data.email }}</p>
+      <p>Call: {{ data.phone }} </p>
+      <p>Email: {{ data.email }}</p>
+      <p>Git: {{data.git}}</p>
         <TextComponent :data="data.left" />
 
     </section>

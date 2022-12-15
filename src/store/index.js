@@ -10,6 +10,7 @@ export default new Vuex.Store({
         role: 'FRONTEND DEVELOPER',
         phone: '+40 756 398 386',
         email: 'denisaicirstea@gmail.com',
+        git: 'https://github.com/dnscrst',
 
         left: {
             about: {
@@ -23,29 +24,46 @@ export default new Vuex.Store({
 
             work: {
                 title: 'WORK EXPERIENCE',
-                details: ` - C++ for school projects (2013-2017)<br/>
-                - WordPress and HTML school and personal projects (2017-2021)<br/>
-                - Frontend Developer Intern at SuperDev (2021-2022)<br/>
-                - Vue JS for personal projects (since 2020)`
+                details: ` &#10070; C++ for school projects (2013-2017)<br/>
+                &#10070; WordPress and HTML school and personal projects (2017-2021)<br/>
+                &#10070; Frontend Developer Intern at SuperDev (2021-2022)<br/>
+                &#10070; Vue JS for personal projects (since 2020)`
             },
 
             soft_skills: {
                 title: 'SOFT SKILLS',
-                details: `Teamwork <br/>
-                Self-confidence <br/>
-                Self discipline<br/>
-                Punctuality <br/>
-                Perseverance<br/>
-                Ambition<br/>
-                Overthinking<br/>
-                Fast learning`
+                details: `&#10070; Problem-Solving Attitude <br>
+                        &#10070; Critical Thinking<br>
+                        &#10070; Fast learning<br>
+                        &#10070; Teamwork<br>
+                        &#10070; Self-confidence <br>
+                        &#10070; Self discipline<br>
+                        &#10070; Punctuality <br>
+                        &#10070; Perseverance<br>
+                        &#10070; Ambition<br>
+                        &#10070; Empathy<br>
+                        &#10070; Creativity<br>
+                        &#10070; Diplomacy<br>
+                        &#10070; Ability to pivot and adapt quickly`
             },
 
             special_skills: {
                 title: 'SPECIAL SKILLS',
-                details: `SEO and digital marketing knowledge <br/>
-                 Leadership and project management
-                `
+                details: ` &#10070; Business and management<br>
+                         &#10070; SEO and digital marketing knowledge<br>
+                         &#10070; Leadership and project management<br>
+                         &#10070; Microsoft office package<br>
+                         &#10070; Photography and editing<br>
+                         &#10070; E-commerce environment knowledge<br>
+                         &#10070; Books addicted<br>
+                         &#10070; Psychology`
+            },
+            languages: {
+                title: 'LANGUAGES',
+                details: ` Romanian - native<br>
+                        English - B2<br>
+                        Spanish - beginner<br>
+                        French - beginner`
             },
         },
 
@@ -103,26 +121,26 @@ export default new Vuex.Store({
 
             educations: {
                 title: 'EDUCATION',
-                details: `IT SCHOOL <br/> 
-                    Frondend Development <br/> 
+                details: `<b>IT SCHOOL</b> <br/> 
+                    <i>Frondend Development </i>  <br/> 
                     HTML5, CSS 3, JavaScript, Sass, Node.js, GIT, 
                     Vue.JS, ReacT.JS, Jira. <br/> <br/> 
                
-                   University Politehnica of Bucharest<br/> 
-                   Engineering and Management<br/> 
+                   <b>University Politehnica of Bucharest</b> <br/> 
+                   <i>Engineering and Management </i> <br/> 
                    HTML, Jira, WordPress, Marvel<br/> <br/> 
                    
-                   National College “Vlaicu Voda”<br/> 
-                   Mathematics - computer science intensive<br/> 
+                   <b>National College “Vlaicu Voda”</b> <br/> 
+                   <i>Mathematics - computer science intensive </i> <br/> 
                     C++, HTML`
             },
 
             current_projects: {
                 title: 'PROJECTS',
-                details: `My Resume - https://github.com/dnscrst/my-resume<br/><br/>
-                        Utility Project - https://github.com/dnscrst/utility-project<br/><br/>
-                        Natours Project - https://github.com/dnscrst/natours-webpage<br/><br/>
-                        Service CRM - https://github.com/dnscrst/service-crm`
+                details: `<b>MY RESUME</b> <br/> https://github.com/dnscrst/my-resume<br/><br/>
+                        <b>UTILITY PROJECT</b> <br/> https://github.com/dnscrst/utility-project<br/><br/>
+                        <b>NATOURS PROJECT</b> <br/> https://github.com/dnscrst/natours-webpage<br/><br/>
+                        <b>SERVICE CRM</b> <br/> https://github.com/dnscrst/service-crm`
 
             }
         },
