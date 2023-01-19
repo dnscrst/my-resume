@@ -15,8 +15,7 @@ export default new Vuex.Store({
         left: {
             about: {
                 title: 'ABOUT',
-                details: `<i>“Ordinem invenio in chaos. ”  <i/> <br>
-                 For some people binary numbers and codes 
+                details: `For some people binary numbers and codes 
                 are like a jungle where you can get lost.
                 For me, they are like lego pieces that
                 help you create art.`
@@ -61,7 +60,7 @@ export default new Vuex.Store({
             languages: {
                 title: 'LANGUAGES',
                 details: ` Romanian - native<br>
-                        English - B2<br>
+                        English - fluent<br>
                         Spanish - beginner<br>
                         French - beginner`
             },
